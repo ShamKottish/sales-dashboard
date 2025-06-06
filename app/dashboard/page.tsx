@@ -5,7 +5,7 @@ import { salesData } from '../../data/mockSalesData';
 import BarChartComponent from '../../components/BarChartComponent';
 import LineChartComponent from '../../components/LineChartComponent';
 import PieChartComponent from '../../components/PieChartComponent';
-import FilterInput from '../../components/filterInput';
+import FilterInput from '../../components/FilterInput';
 
 export default function DashboardPage() {
   const [filteredData, setFilteredData] = useState(salesData);
