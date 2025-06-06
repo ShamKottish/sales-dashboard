@@ -2,7 +2,7 @@
 
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
-export default function LineChartComponent({ data }: { data: any[] }) {
+export default function LineChartComponent({ data }: { data: { year: string; sales: number }[] }) {
   return (
     <div className="bg-white p-4 rounded shadow-md w-full h-[350px]">
       <ResponsiveContainer width="100%" height="100%">
