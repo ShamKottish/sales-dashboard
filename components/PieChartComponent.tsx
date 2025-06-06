@@ -4,7 +4,7 @@ import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from 'recharts';
 
 const COLORS = ['#3b82f6', '#16a34a', '#f59e0b'];
 
-export default function PieChartComponent({ data }: { data: any[] }) {
+export default function PieChartComponent({ data }: { data: { year: string; sales: number }[] }) {
   return (
     <div className="bg-white p-4 rounded shadow-md w-full h-[350px]">
       <ResponsiveContainer width="100%" height="100%">
